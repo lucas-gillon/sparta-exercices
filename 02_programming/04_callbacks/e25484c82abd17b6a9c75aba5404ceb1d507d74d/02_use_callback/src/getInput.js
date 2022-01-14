@@ -6,4 +6,4 @@ function getInput (odin,getInput){
 
 
 // Leave the line below for tests to work
-(module.exports = getInput);
+module.exports = getInput;
