@@ -10,7 +10,7 @@ Write a function `oddEven` that takes **an integer** as _input parameter_ and _r
   - for odd numbers -> `"<argument> is an odd number."`
   - for even numbers -> `"<argument> is an even number."`
 
-If the given argument is not an [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), the function will _logs_ `"<argument> is not a number."`; test it out to know what can be passed in your function.
+If the given argument is not an [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), the function will _log_ `"<argument> is not a number."`; test it out to know what can be passed in your function.
 
 E.g.
 
