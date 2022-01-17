@@ -1,6 +1,5 @@
 function theEFilter(sentences) {
-  let filter = sentences.filter((sentences) => sentences.includes("e" )|| sentences.includes("E"));
-  return filter;
+  return sentences.filter((sentences) => sentences.includes("e") || sentences.includes("E"));
 }
 
 theEFilter([
