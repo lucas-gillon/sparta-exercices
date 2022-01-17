@@ -7,7 +7,6 @@ function canTakeArtPieces(pieces) {
   }
 }
 
-// expected output: true
 
 canTakeArtPieces([
   { piece: "Mona Lisa", type: "painting" },
