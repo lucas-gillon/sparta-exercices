@@ -2,8 +2,8 @@ function square(size) {
   const star = "*";
   let stars = [];
   for (let i = 0; i < size; i++) {
-    stars.push(size * stars);
-    console.log(star.repeat(size));
+    stars.push(size) * stars;
+    console.log(star.repeat(i));
   }
 }
 square(10);
