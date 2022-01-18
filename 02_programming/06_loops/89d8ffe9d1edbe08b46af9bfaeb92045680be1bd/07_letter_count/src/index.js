@@ -7,7 +7,7 @@ function letterCount(word, letter) {
   }
   return counter;
 }
-console.log(letterCount("baldurfavoritesonofodin", "o"));
+console.log(letterCount("utuutuuuuutuu", "u"));
 
 // Do not remove the following line, it is for tests
 module.exports = letterCount;
