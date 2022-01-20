@@ -6,7 +6,7 @@ const person = {
     return `${this.firstname} ${this.lastname}`;
   },
   introduceMyself: function () {
-    return `Hello! I'm ${this.firstname} ${this.lastname} and I'm ${this.age}.`;
+    return `Hello! I'm ${this.fullname()} and I'm ${this.age}.`;
   },
 };
 
