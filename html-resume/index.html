@@ -5,8 +5,10 @@
     <title>CV Gillon Lucas</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
     <link href="assets/css/style.css" rel="stylesheet">
+    <div id="scroll_to_top">
+        <a href="#top"><img src="./assets/img/upArrow.png" alt="Retourner en haut" /></a>
+    </div>
 </head>
 
 <body>
@@ -14,9 +16,14 @@
 <table>
     <tbody>
         <tr>
-            <td><h1>GILLON Lucas</h1>
+            <td>
+                <h1>GILLON Lucas</h1>
                 <h2>Web Developper</h2>
-                    <img src="assets\img\photo-moi.jpeg" height="250px" width="250px">
+                    <img src="assets\img\photo-moi.jpeg" height="250px" width="250px"><br><br><br>
+                    <a href="#about" id="aboutbutton" class="myButton">Qui suis-je ?</a><br><br>
+                    <a href="#resume" id="resumebutton" class="myButton">Expériences professionnelles</a><br><br>
+                    <a href="#contact" id="contactbutton" class="myButton">Infos de contact</a><br><br>
+                    <a href="#music" id="musicbutton" class="myButton">Mes goûts musicaux</a><br><br>
             </td>
         </tr>
         <tr>
@@ -25,7 +32,7 @@
                     <tbody>
                         <tr>
                             <td>
-                                <div class="about">
+                                <div id= "about" class="about">
                                     <h3>❓ Qui suis-je ?</h3>
                                         <p>
                                             Diplômé d'un Baccalauréat STI2D, j'ai eu un parcours assez varié (prépa, DUT Informatique, formation Technicien réseau) <br> puis je me suis ensuite tourné vers le domaine du webdev
@@ -35,7 +42,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="resume">
+                                    <div id="resume" class="resume">
                                         <h3>💼 Expériences professionnelles :</h3>
                                             <ul>
                                                 <h4>Mars 2019 - Juillet 2020</h4>
@@ -48,7 +55,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="contact">
+                                    <div id="contact" class="contact">
                                         <h3>📇 Infos de contact</h3>
                                         <p>
                                             <ul>
@@ -95,8 +102,12 @@
         </tr>
     </tbody>
 </table>
-<h3>🎶 Mes goûts musicaux :</h3>
+<h3 id="music" >🎶 Mes goûts musicaux :</h3>
     <iframe class="playlist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4gZz9nuuKAuYLsb9rdR6L7?utm_source=generator" width="70%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<footer>
+    <p>This website has been created for a school project, so don't be harsh ^^</p>
+</footer>
 </body>
 
 </html>
