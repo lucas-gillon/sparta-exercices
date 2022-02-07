@@ -1,0 +1,51 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  background: url(../img/hero-bg.jpeg);
+  line-height: normal;
+}
+h1, h2 {
+  padding-left: 10%;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  text-decoration: underline;
+}
+h2 {
+  font-size: large;
+}
+ul, ol, li {
+  color: #444444;
+}
+
+h3, h4, h5, h6 {
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 10%;
+  font-family: "Raleway", sans-serif;
+  color:#444444
+}
+p {
+  margin-left: 10%;
+  padding-left: 5%;
+  font-family: "Raleway", sans-serif;
+  color:#444444
+}
+table {
+  line-height: normal;
+}
+tbody {
+  padding-left: 10%;
+  line-height: 50%;
+}
+img {
+  padding-left: 10%;
+}
+.about {
+  line-height: 100%;
+}
+.resume, .contact {
+  line-height: 50%;
+}
+.playlist {
+  padding-left: 10%
+}
