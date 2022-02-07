@@ -9,15 +9,17 @@ function becomeADev(human: Human): Dev {
   return {
     ...human,
     knowsDev: true,
-    knownLanguage: "JavaScript",
+    knownLanguage: "Javascript",
   };
 }
 
-console.log(becomeADev({
-  name: "lucas",
-  age: 23,
-  knowsDev: false,
-}));
+console.log(
+  becomeADev({
+    name: "lucas",
+    age: 23,
+    knowsDev: false,
+  }),
+);
 
 // Leave the line below for tests to work properly.
 export { becomeADev };
