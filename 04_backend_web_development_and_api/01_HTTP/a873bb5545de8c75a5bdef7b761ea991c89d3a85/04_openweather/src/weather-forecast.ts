@@ -22,8 +22,8 @@ function weatherByZipcode(zipcode: string, countryCode: string): void {
             temperature: "",
             weather: "",
           };
+          tempObject.hour = String(moment().format("HH:mm:ss"));
           tempObject.date = String(moment().format("DD/MM/YYYY"));
-          tempObject.hour = String(moment().format("hh:mm:ss"));
           tempObject.temperature = String(data.list[i].main.temp + "°C");
           tempObject.weather = String(data.list[i].weather[0].description);
           console.log(tempObject);
