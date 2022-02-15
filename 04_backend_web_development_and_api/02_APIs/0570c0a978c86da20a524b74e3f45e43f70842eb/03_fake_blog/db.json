@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "updated title v2"
+    },
+    {
+      "id": 2,
+      "title": "POST updated title v2",
+      "author": "updated title v2"
+    },
+    {
+      "id": 3,
+      "title": "POST updated title v2",
+      "author": "POST updated author v2"
+    }
+  ]
+}
