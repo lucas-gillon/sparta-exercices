@@ -2,7 +2,7 @@ import { MongoClient } from "mongodb";
 
 import { showCollections } from "./showCollections";
 
-const databaseUrl = `${process.env.MONGODB_DATABASE_URL}`
+const databaseUrl = `${process.env.MONGODB_DATABASE_URL}`;
 
 const client = new MongoClient(databaseUrl);
 client.connect().then((client) => {
