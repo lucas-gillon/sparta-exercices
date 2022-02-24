@@ -1,13 +1,12 @@
 import { Db } from "mongodb";
-type country = {
-  id: string;
+type Country = {
+  _id: string;
   name: string;
   capital: string;
   continent: string;
 };
 
-export function insertOneCountry(db: Db, pays: country): Promise<country[]> {
-  // code your function here
-  db.collection<country>("worldAtlas").insertOne(pays);
-  return db.collection<country>("worldAtlas").find({ name: "France" }).toArray();
+export async function insertOneCountry(db: Db, pays: Country): Promise<string> {
+  const patate = await db.collection<Country>("worldAtlas").insertOne(pays);
+  return patate.insertedId;
 }
