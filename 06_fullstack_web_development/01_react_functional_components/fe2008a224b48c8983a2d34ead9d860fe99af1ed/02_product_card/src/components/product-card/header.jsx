@@ -1,6 +1,8 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 
 const CardHeader = (props) => {
+  // console.log(props)
   return (
     <div>
       <h1>{props.name}</h1>

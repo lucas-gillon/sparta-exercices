@@ -7252,6 +7252,11 @@ source-map@^0.7.3:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
+sparta@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/sparta/-/sparta-0.0.1.tgz#f20410ee301cbcfa1221d8614c4fadc053c10954"
+  integrity sha1-8gQQ7jAcvPoSIdhhTE+twFPBCVQ=
+
 spdx-correct@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-3.1.1.tgz#dece81ac9c1e6713e5f7d1b6f17d468fa53d89a9"
