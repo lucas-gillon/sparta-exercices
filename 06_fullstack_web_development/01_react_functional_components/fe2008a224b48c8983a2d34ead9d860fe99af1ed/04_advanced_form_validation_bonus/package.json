@@ -1,5 +1,5 @@
 {
-  "name": "02_product_card",
+  "name": "04_advanced_form_validations_bonus",
   "version": "1.0.0",
   "main": "./src/index.jsx",
   "author": "Fewlines",
@@ -13,9 +13,7 @@
   },
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "sparta": "^0.0.1",
-    "uuid": "^8.3.2"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -87,7 +85,7 @@
       ]
     }
   },
-  "jest": {
+    "jest": {
     "moduleFileExtensions": [
       "js",
       "jsx",
@@ -111,9 +109,6 @@
     ]
   },
   "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
   }
 }
