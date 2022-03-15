@@ -1,9 +1,10 @@
 import React from "react";
 import CardHeader from "./header";
 import CardBody from "./body";
+import CardFooter from "./footer";
 
 const ProductCard = (props) => {
-  // console.log("index props : ", props.product.genres);
+  console.log("index props : ", props.product.slug);
   return (
     <div>
       <CardHeader name={props.product.name} platformLogos={props.product.platforms} />
@@ -14,6 +15,7 @@ const ProductCard = (props) => {
         summary={props.product.summary}
         screenshots={props.product.screenshots}
       />
+      <CardFooter slug={props.product.slug} />
     </div>
   );
 };
